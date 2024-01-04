@@ -1,0 +1,34 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.digital-clock{
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  border-radius: 2rem;
+  user-select: none;
+  padding: 0 2rem;
+  border: 0.5rem solid #2d2d2d;
+  margin: 310px;
+}
+
+.clock{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#minutes,
+#hours,
+#days{
+  font-size: 24px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
